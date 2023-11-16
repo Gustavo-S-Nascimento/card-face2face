@@ -16,10 +16,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1e1f26;
 }
 
 main {
-    width: 70%;
+    width: 80%;
     background-color: #cecece;
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +39,6 @@ main {
     gap: 15px;
     padding: 15px;
     border: 2px solid #000;
-
 }
 
 .ideia h1 {
@@ -319,4 +319,44 @@ main {
     display: flex;
     justify-content: center;
     color: #212121;
+}
+
+@media screen and (max-width:690px) {
+    body {
+        background-color: #cecece;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    main {
+        width: 100%;
+        height: 55%;
+        gap: 10px;
+    }
+
+    .ideia {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (max-width:405px) {
+    body {
+        background-color: #cecece;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        gap: 10px;
+    }
+
+    .ideia {
+        width: 100%;
+        height: 100%;
+    }
+
 }
