@@ -43,6 +43,7 @@ main {
 
 .ideia h1 {
     color: #f00707;
+    border-bottom: 1px solid #f00707;
 }
 
 .card {
