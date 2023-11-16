@@ -321,7 +321,7 @@ main {
     color: #212121;
 }
 
-@media screen and (max-width:690px) {
+@media (max-width:690px) {
     body {
         background-color: #cecece;
         justify-content: flex-start;
