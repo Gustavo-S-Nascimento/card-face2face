@@ -27,6 +27,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 1.875rem;
+    margin-top: 950px;
 }
 
 .ideia {
@@ -360,4 +361,79 @@ main {
         height: 100%;
     }
 
+}
+
+.icon-hobby {
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: white;
+    padding: 0.2rem;
+    border: 1.5px solid gray;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-top: -1.1rem;
+    margin-right: -0.4rem;
+    z-index: 10;
+}
+
+.img-container .avatar-j {
+    width: 7rem;
+    height: 7rem;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+
+
+.bold {
+    font-weight: 700;
+}
+
+.semibold {
+    font-weight: 500;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.card-container-j {
+    width: max-content;
+    height: max-content;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+    border: 1.5px solid #ffffff22;
+    background-color: #031f57;
+    border-radius: 0.7rem;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+.profile-container {
+    max-width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.nome-j {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.cargo-j {
+    color: #ffa700;
 }
